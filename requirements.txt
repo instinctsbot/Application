@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+alembic
+python-dotenv
+pydantic
+pydantic-settings
+httpx
+openai
+redis
+celery
+python-jose
+passlib[bcrypt]
+apscheduler
+python-telegram-bot
+requests
