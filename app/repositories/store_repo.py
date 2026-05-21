@@ -17,7 +17,7 @@ class StoreRepository:
         return store
     
     @staticmethod
-    def get_Store_by_id(db: Session, store_id: int):
+    def get_store_by_id(db: Session, store_id: int):
         return db.query(Store).filter(Store.id == store_id).first()
 
     @staticmethod
